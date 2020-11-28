@@ -1,0 +1,30 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "Math serverWrapper module",
+  "main": "dist/math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spookelton/math.git"
+  },
+  "author": "Inrix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spookelton/math/issues"
+  },
+  "homepage": "https://github.com/Spookelton/math#readme",
+  "devDependencies": {
+    "@spookelton/serverwrappertypes": "file:../../wrapperTypes",
+    "@types/mathjs": "^6.0.7",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "mathjs": "^8.0.1"
+  }
+}
