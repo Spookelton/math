@@ -4,7 +4,7 @@ export const thisModule = "math";
 import math from "mathjs";
 import chalk from "chalk";
 
-import type { Command, ModuleColors, CommandConfig, SetModuleSettings } from "@spookelton/serverwrappertypes";
+import type { Command, ModuleColors, CommandConfig, SetModuleSettings } from "@spookelton/wrapperHelpers";
 
 type ModuleSettings = {
 	color: ModuleColors
